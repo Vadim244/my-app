@@ -1,8 +1,8 @@
-import Typography from "@material-ui/core/Typography";
-import React, { useEffect, useState } from "react;"
+// import Typography from "@material-ui/core/Typography";
+import React, { useEffect, useState } from "react"
 import './App.css';
-import TodoForm from "./components/TodoForm";
-import TodoList from "./components/TodoList";
+// import TodoForm from "./components/TodoForm";
+// import TodoList from "./components/TodoList";
 
 const LOCAL_STORAGE_KEY = "react-todo-list-todos";
 
@@ -44,13 +44,14 @@ function App() {
 
     return (
          <div className = "App">
-              <Typography style={{ padding: 16 }}variant="h1"
+             OK
+              {/* <Typography style={{ padding: 16 }}variant="h1"
               >React Todo</Typography>
               <TodoForm addTodo={addTodo} />
               <TodoList 
               todos={todos} 
               toggleComplete={toggleComplete} />
-              removeTodo={removeTodo}
+              removeTodo={removeTodo} */}
         </div>
     );
 }
